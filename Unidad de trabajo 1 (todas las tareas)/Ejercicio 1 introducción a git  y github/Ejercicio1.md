@@ -25,23 +25,23 @@
 ### Seguiremos los siguientes pasos:
 * creamos el repositorio local, con el mismo nombre que el remoto (prueba2_ruben)
 * mkdir prueba2_ruben (el comando mkdir para crear directorios)
-![Captura1](images/Creacionrepositorio-mkdirprueba2_ruben.png)
+* ![Captura1](images/Creacionrepositorio-mkdirprueba2_ruben.png)
 * creamos los ficheros archivo1.txt y archivo2.txt, mediante el comando echo.
-![Captura1](images/Creacion%20repositorio-Creacion%20de%20los%20ficheros.txt.png)
+* ![Captura1](images/Creacion%20repositorio-Creacion%20de%20los%20ficheros.txt.png)
 * git init (iniciaremos el repositorio)
-![Captura1](images/Creacionrespositorio-inicializar%20el%20repositorio%20git%20init.png)
+* ![Captura1](images/Creacionrespositorio-inicializar%20el%20repositorio%20git%20init.png)
 * git add . (añadiremos archivo1.txt y archivo2.txt)
-![Captura1](images/Creacionrepositorio-gitadd%20y%20gitstatus.png)
+* ![Captura1](images/Creacionrepositorio-gitadd%20y%20gitstatus.png)
 * git commit -m "añadir archivo1 y archivo2"
-![Captura1](images/Creacionrepositorio-gitcommitarchivos.png)
+* ![Captura1](images/Creacionrepositorio-gitcommitarchivos.png)
 * git branch -M main (Cambiamos el nombre de la rama a main)
-![Captura1](images/Creacionrepositorio-cambiodelaramaamain.png)
+* ![Captura1](images/Creacionrepositorio-cambiodelaramaamain.png)
 * git remote add origin  git remote add origin https://USERNAME:TOKEN@github.com//REPO.git  
-![Captura1](images/Creacionrepositorio-Agregarconexionremota.png)
+* ![Captura1](images/Creacionrepositorio-Agregarconexionremota.png)
 * git push origin main
-![Captura1](images/Captura-Creaciónrepositoriogitpushoriginmain.png)
+* ![Captura1](images/Captura-Creaciónrepositoriogitpushoriginmain.png)
 * Comprobación en el repositorio remoto
-![Captura1](images/Captura-Comprobacionrepositorioremoto.png)
+* ![Captura1](images/Captura-Comprobacionrepositorioremoto.png)
 
 <!-- Clona el repositorio remoto en tu máquina virtual Linux Debian (usando git clone). -->
 ### A continuación clonaremos el repositorio remoto, en nuestra maquina virtual, Linux Debian, para ello al tendremos en adaptador puente.
