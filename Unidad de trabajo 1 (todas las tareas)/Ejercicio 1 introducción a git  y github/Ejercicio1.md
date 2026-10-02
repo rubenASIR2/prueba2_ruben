@@ -47,7 +47,7 @@
 ### A continuación clonaremos el repositorio remoto, en nuestra maquina virtual, Linux Debian, para ello al tendremos en adaptador puente.
 ### Instalación y configuración de Git en una máquina virtual Debian 12
 
-En primer lugar, se realizó la conexión remota a una máquina virtual con el sistema operativo **Linux Debian 12**. Para realizar la conexión desde Windows, se utilizó **Git Bash**.
+En primer lugar, se encendio  una máquina virtual con el sistema operativo **Linux Debian 13**. 
 
 Una vez dentro de la máquina virtual, se comprobó si Git estaba instalado. En caso de no estar disponible, se procedió a actualizar los paquetes del sistema mediante el siguiente comando:
 
