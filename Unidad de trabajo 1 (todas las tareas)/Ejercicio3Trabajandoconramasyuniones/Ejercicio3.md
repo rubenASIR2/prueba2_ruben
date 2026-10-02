@@ -210,9 +210,7 @@ Estas marcas son añadidas automáticamente por Git para indicar las dos version
 
 * git commit -m "Solución del conflicto en prueba.txt"
 
-![Captura](images/Modificacionprubea.txt%20en%20segunda.png)
-
-![Captura](images/Commit%20solucion.png)
+* ![Captura](images/Modificacionensegunda.txtprueba.txt.png)
 
 ### De esta manera, el conflicto quedó solucionado y las dos ramas pudieron quedar fusionadas correctamente.
 
@@ -221,7 +219,7 @@ Estas marcas son añadidas automáticamente por Git para indicar las dos version
 ### Finalmente, se subió la rama segunda al repositorio remoto de GitHub utilizando:
 
 * git push -u origin segunda
-![Captura](images/Git%20push%20origin%20segunda.png)
+* ![Captura](images/Gitpushoriginsegunda.png)
 
 ### Con este comando, la rama segunda quedó creada también en GitHub.
 
