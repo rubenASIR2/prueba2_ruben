@@ -223,8 +223,6 @@ Estas marcas son añadidas automáticamente por Git para indicar las dos version
 
 ### Con este comando, la rama segunda quedó creada también en GitHub.
 
-Captura de pantalla:
-
 
 ## Conclusión
 
