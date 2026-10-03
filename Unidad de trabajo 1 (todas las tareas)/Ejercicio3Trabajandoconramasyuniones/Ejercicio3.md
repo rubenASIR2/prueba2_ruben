@@ -122,6 +122,7 @@ En este ejercicio se trabajó con el repositorio utilizado en los ejercicios ant
 ### En este caso, no se produjo ningún conflicto, ya que los cambios realizados en la rama primera no modificaban la misma parte de un fichero que hubiese sido modificada en main.
 
 ![Captura](images1/Fusion%20ramas%206..png)
+![Captura](images1/Git%20merge%20primera%20sin%20confilcto.png)
 
 ### Los cambios se pudieron fusionar automáticamente y los nuevos ficheros y modificaciones pasaron a formar parte de la rama principal.
 
@@ -140,7 +141,7 @@ En este ejercicio se trabajó con el repositorio utilizado en los ejercicios ant
 * git add prueba.txt
 *git commit -m "Creación del fichero prueba.txt"
 
-![Captura](images1/7.%20Captura%20numero%20cinco%20modificacion%20prueba.txt%20en%20main.png)
+![Captura](images1/gitaddprueba.txt+commit.png)
 
 ### A continuación, se creó una nueva rama llamada segunda:
 
