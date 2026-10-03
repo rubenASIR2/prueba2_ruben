@@ -15,7 +15,7 @@ En este ejercicio se trabajó con el repositorio utilizado en los ejercicios ant
 
 * main
 
-* ![captura](images/Primeraimagenbranch.png)
+* ![captura](images1/Primeraimagenbranch.png)
 
 ### La rama main es la rama principal del proyecto y contiene el estado principal del repositorio.
 
@@ -34,7 +34,7 @@ En este ejercicio se trabajó con el repositorio utilizado en los ejercicios ant
 * main
   primera
 
-* ![captura](images/2.%20Creación%20de%20una%20nueva%20rama.png)
+* ![captura](images1/2.%20Creación%20de%20una%20nueva%20rama.png)
 
 ### El asterisco continuaba apareciendo en main, por lo que todavía se estaba trabajando en la rama principal.
 
@@ -53,7 +53,7 @@ En este ejercicio se trabajó con el repositorio utilizado en los ejercicios ant
 * main
 * primera
 
-![captura](images/3.%20Cambio%20de%20rama.png)
+![captura](images1/3.%20Cambio%20de%20rama.png)
 
 ### Esto confirmó que el trabajo se estaba realizando ahora en la rama primera.
 
@@ -89,7 +89,7 @@ En este ejercicio se trabajó con el repositorio utilizado en los ejercicios ant
 
 ### Esto permitió comprobar que las ramas funcionan como líneas independientes de desarrollo.
  
- ![captura](images/4.%20Cambios%20realizados%20en%20la%20rama%20primera.png)
+ ![captura](images1/4.%20Cambios%20realizados%20en%20la%20rama%20primera.png)
 
 
 ## 5. Subida de la rama a GitHub
@@ -105,7 +105,7 @@ En este ejercicio se trabajó con el repositorio utilizado en los ejercicios ant
 ### Captura de pantalla:
 
  
- ![captura](images/5.%20Git%20push%20rama%20primera.png)
+ ![captura](images1/5.%20Git%20push%20rama%20primera.png)
 
 ## 6. Fusión de la rama primera con main
 
@@ -121,7 +121,7 @@ En este ejercicio se trabajó con el repositorio utilizado en los ejercicios ant
 
 ### En este caso, no se produjo ningún conflicto, ya que los cambios realizados en la rama primera no modificaban la misma parte de un fichero que hubiese sido modificada en main.
 
-![Captura](images/Fusion%20ramas%206..png)
+![Captura](images1/Fusion%20ramas%206..png)
 
 ### Los cambios se pudieron fusionar automáticamente y los nuevos ficheros y modificaciones pasaron a formar parte de la rama principal.
 
@@ -133,28 +133,28 @@ En este ejercicio se trabajó con el repositorio utilizado en los ejercicios ant
 
 * git checkout main
 
-![Captura](images/7.%20captura%20uno%20git%20checkout%20main.png)
+![Captura](images1/7.%20captura%20uno%20git%20checkout%20main.png)
 
 ### Después de crear el fichero, se añadieron los cambios y se realizó un commit:
 
 * git add prueba.txt
 *git commit -m "Creación del fichero prueba.txt"
 
-![Captura](images/7.%20Captura%20numero%20cinco%20modificacion%20prueba.txt%20en%20main.png)
+![Captura](images1/7.%20Captura%20numero%20cinco%20modificacion%20prueba.txt%20en%20main.png)
 
 ### A continuación, se creó una nueva rama llamada segunda:
 
 * git branch segunda
 * git checkout segunda
 
-![Captura](images/7.%20Captura%20numero%20tres%20.png)
+![Captura](images1/7.%20Captura%20numero%20tres%20.png)
 
 ### En esta rama se modificó el contenido de prueba.txt y se realizó un commit:
 
 * git add prueba.txt
 * git commit -m "Modificación de prueba.txt en segunda"
 
-![Captura](images/7.%20Captura%20numero%20cuatro.png)
+![Captura](images1/7.%20Captura%20numero%20cuatro.png)
 
 
 ### Después, se volvió a la rama principal:
@@ -167,7 +167,7 @@ En este ejercicio se trabajó con el repositorio utilizado en los ejercicios ant
 * git add prueba.txt
 * git commit -m "Modificación de prueba.txt en main"
 
-![Captura](images/Modifcación%20deprueba.txtenmain.png)
+![Captura](images1/Modifcación%20deprueba.txtenmain.png)
 
 ### Finalmente, se intentó fusionar la rama segunda con main:
 
@@ -210,7 +210,7 @@ Estas marcas son añadidas automáticamente por Git para indicar las dos version
 
 * git commit -m "Solución del conflicto en prueba.txt"
 
-* ![Captura](image-2.png)
+* ![Captura](images1/image-2.png)
 
 ### De esta manera, el conflicto quedó solucionado y las dos ramas pudieron quedar fusionadas correctamente.
 
@@ -219,7 +219,7 @@ Estas marcas son añadidas automáticamente por Git para indicar las dos version
 ### Finalmente, se subió la rama segunda al repositorio remoto de GitHub utilizando:
 
 * git push -u origin segunda
-* ![Captura](image-3.png)
+* ![Captura](images1/image-3.png)
 
 ### Con este comando, la rama segunda quedó creada también en GitHub.
 
