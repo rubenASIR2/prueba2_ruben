@@ -140,7 +140,7 @@ En este ejercicio se trabajó con el repositorio utilizado en los ejercicios ant
 * git add prueba.txt
 *git commit -m "Creación del fichero prueba.txt"
 
-![Captura](images/7.%20Captura%20numero%20dos%20.png)
+![Captura](images/7.%20Captura%20numero%20cinco%20modificacion%20prueba.txt%20en%20main.png)
 
 ### A continuación, se creó una nueva rama llamada segunda:
 
@@ -167,7 +167,7 @@ En este ejercicio se trabajó con el repositorio utilizado en los ejercicios ant
 * git add prueba.txt
 * git commit -m "Modificación de prueba.txt en main"
 
-![Captura](images/7.%20Captura%20numero%20cinco%20modificacion%20prueba.txt%20en%20main.png)
+![Captura](images/Modifcación%20deprueba.txtenmain.png)
 
 ### Finalmente, se intentó fusionar la rama segunda con main:
 
@@ -210,7 +210,7 @@ Estas marcas son añadidas automáticamente por Git para indicar las dos version
 
 * git commit -m "Solución del conflicto en prueba.txt"
 
-* ![Captura](images/Modificacionensegunda.txtprueba.txt.png)
+* ![Captura](image-2.png)
 
 ### De esta manera, el conflicto quedó solucionado y las dos ramas pudieron quedar fusionadas correctamente.
 
@@ -219,7 +219,7 @@ Estas marcas son añadidas automáticamente por Git para indicar las dos version
 ### Finalmente, se subió la rama segunda al repositorio remoto de GitHub utilizando:
 
 * git push -u origin segunda
-* ![Captura](images/Gitpushoriginsegunda.png)
+* ![Captura](image-3.png)
 
 ### Con este comando, la rama segunda quedó creada también en GitHub.
 
